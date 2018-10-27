@@ -272,7 +272,50 @@ body{
 /*800px*/
 @media screen and (max-width:800px), only screen and (max-device-width:800px){
 .container{
-	width: 800px;
-	background-color: lightblue;
+	width: 700px;
+	background-color: red;
+}
+.header{
+	width: 700px;
+}
+.logo__text{
+	margin:8px 30px 0 0;
+}
+.section{
+	width: 700px;
+}
+.section__img{
+	margin: 60px 0 0 170px;
+}
+.login{
+	margin-right:590px;
+}
+.header__short-menu{
+	margin-left:660px;
+}
+.menu{
+	display:none;
+	position:absolute;
+	width:160px;
+	margin-top:100px;
+	margin-left:540px;
+	background-color:rgba(168, 168, 168, 0.6);
+	height:195px;
+}
+.section__block__header{
+	margin: 30px 0 40px 0;
+	font-size: 56px;
+}
+.section__block__container{
+	margin-right:20px;
 }
 }
+/*720*/
+@media screen and (max-width:720px), only screen and (max-device-width:720px){
+.container{
+	width: 620px;
+	background-color: orange;
+}
+}
+
+/*640*/
