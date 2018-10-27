@@ -1,23 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900');
 
-body{
-	background-color: #efefe2;
-	width:100%;
-}
 .container{
 	margin:0 auto;
-	width: 1400px;
+	width: 1920px;
 	height: 550px;
-	background-color: blue;
+	background-color: #efefe2;
 }
 .header{
 	margin:0 auto;
-	width: 1220px;
-	height: 50px;
+	width: 1215px;
+	height: 70px;
 	font:100% 'Open Sans', sans-serif;
 	padding-top:15px;
-	background-color: green;
 }
 .logo__img {
     float: left; 
@@ -27,7 +22,7 @@ body{
 }
 .logo__text{
 	float: left;
-	margin:10px 160px 0 0;
+	margin:10px 120px 0 0;
 	font-size:18px;
 }
 .menu{
@@ -43,5 +38,60 @@ body{
 		font-size:15px;
     }
 }
+li:nth-child(3) {
+	a{
+		color:#ee5575;
+		padding-bottom:25px;
+		border-bottom: 6px solid #efcfcd;
+	}
+}
+li:last-child {
+	a{
+		color:#f1f4f7;
+		background:#2f3a3d;
+		padding: 5px 20px;
+		font-size:16px;
+		width: 75px;
+	}
+}
+.login{
+	margin-top:5px;
+	float:right;
+	border: 1px solid #2f3a3d;
+	padding: 4.5px 15px;
+	width:75px;
+}
+.login__img{
+    float: left; 
+    margin:4px 10px 0 0;
+}
+.login__text{
+	float: left;
+	font-size:15px;
+}
+.clear{
+	clear:both;
+}
+.section{
+	width: 1650px;
+	margin: 0 auto;
+	background-color:red;
+	font:100% 'Roboto', sans-serif;
+}
+.section__img{
+	margin: 155px 100px 0 0;
+	width: 400px;
+	height: 305px;
+	float:left;
+}
+.section__block{
+	float:left;
+}
+h1{
+	margin: 160px 0 50px 0;
+	font-size: 62px;
+	font-weight:bold;
+	color:#d0ca9e;
+}
 
-  
+
