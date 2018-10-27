@@ -326,14 +326,233 @@ body{
 	margin-left:460px;
 }
 .section__block__header{
-	font-size: 48px;
+	font-size: 49px;
 }
 .section__block__container{
-	margin-right:5px;
-	p{
-		font-size:15px;
-	}
+	width: 400px;
+	margin-right:100px;
+	margin-bottom:70px;
 }
 }
 
 /*640*/
+@media screen and (max-width:640px), only screen and (max-device-width:640px){
+.container{
+	width: 520px;
+	background-color: violet;
+}
+.header{
+	width: 520px;
+}
+.section{
+	width: 520px;
+}
+.section__img{
+	margin: 60px 0 0 50px;
+}
+.login{
+	margin-right:410px;
+}
+.header__short-menu{
+	margin-left:480px;
+}
+.menu{
+	margin-left:360px;
+}
+.section__block__header{
+	font-size: 40px;
+}
+.section__block__container{
+	margin-right:60px;
+}
+}
+/*540*/
+@media screen and (max-width:540px), only screen and (max-device-width:540px){
+.container{
+	width: 460px;
+	background-color: blue;
+}
+.header{
+	width: 460px;
+}
+.section{
+	width: 460px;
+}
+.section__img{
+	margin: 60px 0 0 20px;
+}
+.login{
+	margin-right:350px;
+}
+.header__short-menu{
+	margin-left:420px;
+}
+.menu{
+	margin-left:300px;
+}
+.section__block__header{
+	font-size: 36px;
+}
+.section__block__container{
+	width: 400px;
+	margin-right:10px;
+	margin-bottom:70px;
+}
+}
+/*480*/
+@media screen and (max-width:480px), only screen and (max-device-width:480px){
+.container{
+	width: 320px;
+	background-color:orange;
+}
+.header{
+	width: 320px;
+}
+.section{
+	width: 320px;
+}
+.section__img{
+	margin: 60px 0 0 20px;
+}
+.login{
+	margin-right:210px;
+}
+.header__short-menu{
+	margin-left:285px;
+}
+.menu{
+	margin-left:160px;
+}
+.section__block__header{
+	font-size: 36px;
+}
+.section__img{
+	width: 280px;
+	height: 210px;
+}
+.section__block__container{
+	width: 300px;
+}
+.section__block__header{
+	font-size: 32px;
+}
+}
+/*320*/
+@media screen and (max-width:320px), only screen and (max-device-width:320px){
+.container{
+	width: 300px;
+	background-color:red;
+}
+.header{
+	width: 300px;
+}
+.section{
+	width: 300px;
+}
+.section__img{
+	margin: 60px 0 0 10px;
+}
+.login{
+	margin-right:190px;
+}
+.header__short-menu{
+	margin-left:265px;
+}
+.menu{
+	margin-left:135px;
+}
+.section__block__header{
+	font-size: 32px;
+}
+.section__block__container{
+	width: 270px;
+}
+}
+/*300*/
+@media screen and (max-width:300px), only screen and (max-device-width:300px){
+.container{
+	width: 270px;
+	background-color:blue;
+}
+.header{
+	width: 270px;
+}
+.section{
+	width: 270px;
+}
+.section__img{
+	margin: 60px 0 0 0;
+}
+.login{
+	margin-right:160px;
+}
+.header__short-menu{
+	margin-left:230px;
+}
+.menu{
+	margin-left:105px;
+}
+.section__block__container{
+	width: 250px;
+}
+}
+/*280*/
+@media screen and (max-width:280px), only screen and (max-device-width:280px){
+.container{
+	width: 250px;
+	background-color:green;
+}
+.header{
+	width: 250px;
+}
+.section{
+	width: 250px;
+}
+.section__img{
+	margin: 60px 0 0 0;
+}
+.login{
+	margin-right:140px;
+}
+.header__short-menu{
+	margin-left:210px;
+}
+.menu{
+	margin-left:80px;
+}
+.section__block__container{
+	width: 240px;
+}
+}
+/*260px*/
+@media screen and (max-width:260px), only screen and (max-device-width:260px){
+.container{
+	width: 220px;
+	background-color:blue;
+}
+.header{
+	width: 220px;
+}
+.section{
+	width: 220px;
+}
+.section__img{
+	margin: 60px 0 0 0;
+}
+.section__img{
+	width: 220px;
+	height: 170px;
+}
+.login{
+	margin-right:110px;
+}
+.header__short-menu{
+	margin-left:180px;
+}
+.menu{
+	margin-left:60px;
+}
+.section__block__container{
+	width: 210px;
+}
+}
