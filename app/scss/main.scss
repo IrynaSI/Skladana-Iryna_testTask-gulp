@@ -25,7 +25,7 @@ body{
 }
 .logo__text{
 	float: left;
-	margin:10px 120px 0 0;
+	margin:8px 120px 0 0;
 	font-size:18px;
 }
 .menu{
@@ -116,35 +116,110 @@ body{
 /*1600px-1366px*/
 @media screen and (max-width:1600px), only screen and (max-device-width:1600px){
 	.container{
-	width: 1355px;
+	width: 1340px;
 	background-color: green;
 }
 .section{
-	width: 1355px;
-	background-color:red;
+	width: 1340px;
 }
 
 .section__img{
 	margin: 155px 50px 0 0;
 }
+.section__block__container{
+	margin-right:60px;
+}
 }
 /*1360px*/
 @media screen and (max-width:1360px), only screen and (max-device-width:1360px){
 .container{
-	width: 1020px;
+	width: 1260px;
 	background-color: orange;
 }
+
+.section{
+	width: 1260px;
+}
+}
+/*1280px*/
+@media screen and (max-width:1280px), only screen and (max-device-width:1280px){
+.container{
+	width: 1132px;
+	background-color: yellow;
+}
 .header{
-	margin:0 auto;
-	width: 1010px;
+	width: 1132px;
 }
 .section{
-	width: 1010px;
-	background-color:red;
+	width: 1132px;
 }
-
 .section__img{
-	margin: 155px 30px 0 0;
+	margin: 60px 0 0 350px;
 }
-
+.section__block{
+	margin: 0 0 0 180px;
+}
+.section__block__container{
+	margin-right:100px;
+}
+.section__block__header{
+	margin: 60px 0 40px 0;
+}
+}
+/*1152px*/
+@media screen and (max-width:1152px), only screen and (max-device-width:1152px){
+.container{
+	width: 1004px;
+	background-color: violet;
+}
+.header{
+	width: 1004px;
+}
+.logo__text{
+	margin:8px 50px 0 0;
+}
+.section{
+	width: 1004px;
+}
+.section__img{
+	margin: 60px 0 0 300px;
+}
+.section__block{
+	margin: 0 0 0 130px;
+}
+.section__block__container{
+	margin-right:90px;
+}
+}
+/*1024px*/
+@media screen and (max-width:1024px), only screen and (max-device-width:1024px){
+.container{
+	width: 780px;
+	background-color: lightgreen;
+}
+.header{
+	width: 780px;
+}
+.logo__text{
+	margin:8px 50px 0 0;
+}
+.section{
+	width: 780px;
+}
+.section__img{
+	margin: 60px 0 0 200px;
+}
+.section__block{
+	margin: 0 0 0 5px;
+}
+.section__block__container{
+	margin-right:40px;
+}
+}
+/*800px*/
+@media screen and (max-width:800px), only screen and (max-device-width:800px){
+.container{
+	width: 800px;
+	background-color: lightblue;
+}
 }
