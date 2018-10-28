@@ -402,46 +402,45 @@ body{
 /*480*/
 @media screen and (max-width:480px), only screen and (max-device-width:480px){
 .container{
-	width: 320px;
+	width: 380px;
 	background-color:orange;
 }
 .header{
-	width: 320px;
+	width: 380px;
 }
 .section{
-	width: 320px;
+	width: 380px;
 }
 .section__img{
 	margin: 60px 0 0 20px;
 }
 .login{
-	margin-right:210px;
+	margin-right:270px;
 }
 .header__short-menu{
-	margin-left:285px;
+	margin-left:345px;
 }
 .menu{
-	margin-left:158px;
-}
-.section__block__header{
-	font-size: 36px;
+	margin-left:215px;
 }
 .section__img{
-	width: 280px;
-	height: 210px;
-}
-.section__block__container{
-	width: 300px;
+	width: 320px;
+	height: 250px;
 }
 .section__block__header{
 	font-size: 32px;
+	margin-left:20px;
+}
+.section__block__container{
+	width: 330px;
+	margin-right:20px;
 }
 }
-/*320*/
-@media screen and (max-width:320px), only screen and (max-device-width:320px){
+/*400*/
+@media screen and (max-width:400px), only screen and (max-device-width:400px){
 .container{
 	width: 300px;
-	background-color:red;
+	background-color:brown;
 }
 .header{
 	width: 300px;
@@ -450,7 +449,9 @@ body{
 	width: 300px;
 }
 .section__img{
-	margin: 60px 0 0 10px;
+	margin: 60px 0 0 0px;
+	width: 300px;
+	height: 220px;
 }
 .login{
 	margin-right:190px;
@@ -459,13 +460,54 @@ body{
 	margin-left:265px;
 }
 .menu{
-	margin-left:138px;
+	margin-left:140px;
 }
 .section__block__header{
-	font-size: 32px;
+	margin-left:10px;
 }
 .section__block__container{
-	width: 270px;
+	width: 260px;
+	margin-left:10px;
+	h2{
+		width: 200px;
+	}
+	p{
+		width: 270px;
+	}
+}
+}
+/*320*/
+@media screen and (max-width:320px), only screen and (max-device-width:320px){
+.container{
+	width: 280px;
+	background-color:red;
+}
+.header{
+	width: 280px;
+}
+.section{
+	width: 280px;
+}
+.section__img{
+	margin: 60px 0 0 0px;
+	width: 280px;
+	height: 210px;
+}
+.login{
+	margin-right:170px;
+}
+.header__short-menu{
+	margin-left:245px;
+}
+.menu{
+	margin-left:120px;
+}
+.section__block__header{
+	margin-left:0px;
+}
+.section__block__container{
+	width: 250px;
+	margin-left:0px;
 }
 }
 /*300*/
@@ -482,6 +524,8 @@ body{
 }
 .section__img{
 	margin: 60px 0 0 0;
+	width: 240px;
+	height: 180px;
 }
 .login{
 	margin-right:160px;
@@ -492,67 +536,89 @@ body{
 .menu{
 	margin-left:105px;
 }
-.section__block__container{
-	width: 250px;
+.section__block__header{
+	margin-left:20px;
 }
 }
-/*280*/
+/*280px*/
 @media screen and (max-width:280px), only screen and (max-device-width:280px){
 .container{
-	width: 250px;
+	width: 240px;
 	background-color:green;
 }
 .header{
-	width: 250px;
+	width: 240px;
 }
 .section{
-	width: 250px;
+	width: 240px;
 }
 .section__img{
 	margin: 60px 0 0 0;
 }
 .login{
-	margin-right:140px;
+	margin-right:130px;
 }
 .header__short-menu{
-	margin-left:210px;
+	margin-left:205px;
 }
 .menu{
 	margin-left:80px;
 }
+.section__block__header{
+	margin-left:15px;
+}
 .section__block__container{
-	width: 240px;
+	width: 200px;
+	h2{
+		margin-left:20px;
+	}
+	p{
+		width: 210px;
+		text-align:justify;
+	}
 }
 }
 /*260px*/
 @media screen and (max-width:260px), only screen and (max-device-width:260px){
 .container{
-	width: 220px;
-	background-color:blue;
+	width: 195px;
+	background-color:orange;
 }
 .header{
-	width: 220px;
+	width: 195px;
 }
 .section{
-	width: 220px;
+	width: 195px;
 }
 .section__img{
 	margin: 60px 0 0 0;
 }
 .section__img{
-	width: 220px;
-	height: 170px;
+	width: 200px;
+	height: 160px;
 }
 .login{
-	margin-right:110px;
+	margin-right:90px;
 }
 .header__short-menu{
-	margin-left:180px;
+	margin-left:155px;
 }
 .menu{
-	margin-left:60px;
+	margin-left:30px;
+}
+.section__block__header{
+	margin-left:0px;
+	width:190px;
+	font-size:28px;
 }
 .section__block__container{
-	width: 210px;
+	width: 170px;
+	h2{
+		width: 170px;
+		margin-left:0px;
+	}
+	p{
+		width: 170px;
+	}
 }
 }
