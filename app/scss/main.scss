@@ -113,7 +113,7 @@ body{
 	h2{
 		font-weight:900;
 		font-size:26px;
-		margin-bottom:30px;
+		margin-bottom:50px;
 	}
 	p{
 		font-weight:300;
@@ -159,7 +159,7 @@ body{
 	margin-right:60px;
 }
 .loading {
-  margin-top: 600px;
+  margin-top: 340px;
 }
 }
 /*1360px*/
@@ -196,7 +196,7 @@ body{
 	margin: 60px 0 40px 0;
 }
 .loading {
-  margin-top: 620px;
+  margin-top: 600px;
 }
 }
 /*1152px*/
@@ -291,6 +291,9 @@ body{
 }
 #short-menu:checked~.menu{
 	display:block;
+}
+.loading {
+  margin-top: 620px;
 }
 }
 /*800px*/
