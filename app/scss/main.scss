@@ -125,6 +125,11 @@ body{
   width: 100%;
   margin-top: 340px;
 }
+.loading-mobile-block1,.loading-mobile-block2{
+	position: absolute;
+    width: 100%;
+	display:none;
+}
 .loading__line {
   position: relative;
   background-color: #bab6b3;
@@ -151,7 +156,6 @@ body{
 .section{
 	width: 1340px;
 }
-
 .section__img{
 	margin: 155px 50px 0 0;
 }
@@ -167,7 +171,6 @@ body{
 .container{
 	width: 1260px;
 }
-
 .section{
 	width: 1260px;
 }
@@ -366,6 +369,14 @@ body{
 .loading {
   margin-top: 610px;
 }
+.loading-mobile-block1{
+	display:block;
+	 margin-top: 860px;
+}
+.loading-mobile-block2{
+	 display:block;
+	 margin-top: 1110px;
+}
 }
 
 /*640px*/
@@ -399,6 +410,12 @@ body{
 }
 .loading {
   margin-top: 600px;
+}
+.loading-mobile-block1{
+	 margin-top: 850px;
+}
+.loading-mobile-block2{
+	 margin-top: 1100px;
 }
 }
 /*540px*/
@@ -479,6 +496,12 @@ body{
 .loading {
   margin-top: 570px;
 }
+.loading-mobile-block1{
+	 margin-top: 840px;
+}
+.loading-mobile-block2{
+	 margin-top: 1110px;
+}
 }
 /*400px*/
 @media screen and (max-width:400px), only screen and (max-device-width:400px){
@@ -518,6 +541,12 @@ body{
 .loading {
   margin-top: 540px;
 }
+.loading-mobile-block1{
+	 margin-top: 810px;
+}
+.loading-mobile-block2{
+	 margin-top: 1080px;
+}
 }
 /*320x*/
 @media screen and (max-width:320px), only screen and (max-device-width:320px){
@@ -556,6 +585,12 @@ body{
 .loading {
   margin-top: 530px;
 }
+.loading-mobile-block1{
+	 margin-top: 800px;
+}
+.loading-mobile-block2{
+	 margin-top: 1070px;
+}
 }
 /*300px*/
 @media screen and (max-width:300px), only screen and (max-device-width:300px){
@@ -576,11 +611,11 @@ body{
 .login{
 	margin-right:160px;
 }
-.header__short-menu{
-	margin-left:230px;
+.loading-mobile-block1{
+	 margin-top: 770px;
 }
-.menu{
-	margin-left:105px;
+.loading-mobile-block2{
+	 margin-top: 1040px;
 }
 }
 /*280px*/
@@ -615,6 +650,12 @@ body{
 .loading {
   margin-top: 500px;
 }
+.loading-mobile-block1{
+	 margin-top: 790px;
+}
+.loading-mobile-block2{
+	 margin-top: 1080px;
+} 		
 }
 /*260px*/
 @media screen and (max-width:260px), only screen and (max-device-width:260px){
