@@ -8,7 +8,7 @@ body{
 .container{
 	margin:0 auto;
 	width: 1600px;
-	background-color: red;
+	// background-color: red;
 }
 .header{
 	margin:0 auto;
@@ -124,7 +124,7 @@ body{
 @media screen and (max-width:1600px), only screen and (max-device-width:1600px){
 	.container{
 	width: 1340px;
-	background-color: green;
+	// background-color: green;
 }
 .section{
 	width: 1340px;
@@ -141,7 +141,7 @@ body{
 @media screen and (max-width:1360px), only screen and (max-device-width:1360px){
 .container{
 	width: 1260px;
-	background-color: orange;
+	// background-color: orange;
 }
 
 .section{
@@ -152,7 +152,7 @@ body{
 @media screen and (max-width:1280px), only screen and (max-device-width:1280px){
 .container{
 	width: 1132px;
-	background-color: yellow;
+	// background-color: yellow;
 }
 .header{
 	width: 1132px;
@@ -177,7 +177,7 @@ body{
 @media screen and (max-width:1152px), only screen and (max-device-width:1152px){
 .container{
 	width: 1004px;
-	background-color: violet;
+	// background-color: violet;
 }
 .header{
 	width: 1004px;
@@ -202,7 +202,7 @@ body{
 @media screen and (max-width:1024px), only screen and (max-device-width:1024px){
 .container{
 	width: 780px;
-	background-color: lightgreen;
+	// background-color: lightgreen;
 }
 .header{
 	width: 780px;
@@ -273,7 +273,7 @@ body{
 @media screen and (max-width:800px), only screen and (max-device-width:800px){
 .container{
 	width: 700px;
-	background-color: red;
+	// background-color: red;
 }
 .header{
 	width: 700px;
@@ -305,7 +305,7 @@ body{
 @media screen and (max-width:720px), only screen and (max-device-width:720px){
 .container{
 	width: 620px;
-	background-color: orange;
+	// background-color: orange;
 }
 .header{
 	width: 620px;
@@ -339,7 +339,7 @@ body{
 @media screen and (max-width:640px), only screen and (max-device-width:640px){
 .container{
 	width: 520px;
-	background-color: violet;
+	// background-color: violet;
 }
 .header{
 	width: 520px;
@@ -370,7 +370,7 @@ body{
 @media screen and (max-width:540px), only screen and (max-device-width:540px){
 .container{
 	width: 460px;
-	background-color: blue;
+	// background-color: blue;
 }
 .header{
 	width: 460px;
@@ -403,7 +403,7 @@ body{
 @media screen and (max-width:480px), only screen and (max-device-width:480px){
 .container{
 	width: 380px;
-	background-color:orange;
+	// background-color:orange;
 }
 .header{
 	width: 380px;
@@ -440,7 +440,7 @@ body{
 @media screen and (max-width:400px), only screen and (max-device-width:400px){
 .container{
 	width: 300px;
-	background-color:brown;
+	// background-color:brown;
 }
 .header{
 	width: 300px;
@@ -480,7 +480,7 @@ body{
 @media screen and (max-width:320px), only screen and (max-device-width:320px){
 .container{
 	width: 280px;
-	background-color:red;
+	// background-color:red;
 }
 .header{
 	width: 280px;
@@ -514,7 +514,7 @@ body{
 @media screen and (max-width:300px), only screen and (max-device-width:300px){
 .container{
 	width: 270px;
-	background-color:blue;
+	// background-color:blue;
 }
 .header{
 	width: 270px;
@@ -523,7 +523,7 @@ body{
 	width: 270px;
 }
 .section__img{
-	margin: 60px 0 0 0;
+	margin: 60px 0 0 15px;
 	width: 240px;
 	height: 180px;
 }
@@ -544,7 +544,7 @@ body{
 @media screen and (max-width:280px), only screen and (max-device-width:280px){
 .container{
 	width: 240px;
-	background-color:green;
+	// background-color:green;
 }
 .header{
 	width: 240px;
@@ -582,7 +582,7 @@ body{
 @media screen and (max-width:260px), only screen and (max-device-width:260px){
 .container{
 	width: 195px;
-	background-color:orange;
+	// background-color:orange;
 }
 .header{
 	width: 195px;
@@ -595,10 +595,10 @@ body{
 }
 .section__img{
 	width: 200px;
-	height: 160px;
+	height: 150px;
 }
 .login{
-	margin-right:90px;
+	margin-right:85px;
 }
 .header__short-menu{
 	margin-left:155px;
